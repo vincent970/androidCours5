@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "912943618637",
+    "firebase_url": "https://cours5-3e328.firebaseio.com",
+    "project_id": "cours5-3e328",
+    "storage_bucket": "cours5-3e328.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:912943618637:android:dfa481cbf7c3736d",
+        "android_client_info": {
+          "package_name": "com.cba533.cours5"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "912943618637-dck6jndqcp9qk6bqi3arhdtjimiq3eua.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cba533.cours5",
+            "certificate_hash": "5469e36528087c8b25fd46cf8f0bc1fbca8c39f0"
+          }
+        },
+        {
+          "client_id": "912943618637-l1p8078d0vnab2s7abm57nlditcu4jgo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjv3dsuaUxfzrVqzobhcKexh_-v5Betrc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "912943618637-l1p8078d0vnab2s7abm57nlditcu4jgo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:912943618637:android:977de311f6ae2bbd",
+        "android_client_info": {
+          "package_name": "com.ganbangingcocksucka.carlyoumotherfuckingpieceofshit.cours5"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "912943618637-qe370ob95udd20k5re10rijqloecjdl5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ganbangingcocksucka.carlyoumotherfuckingpieceofshit.cours5",
+            "certificate_hash": "5469e36528087c8b25fd46cf8f0bc1fbca8c39f0"
+          }
+        },
+        {
+          "client_id": "912943618637-l1p8078d0vnab2s7abm57nlditcu4jgo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjv3dsuaUxfzrVqzobhcKexh_-v5Betrc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "912943618637-l1p8078d0vnab2s7abm57nlditcu4jgo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
