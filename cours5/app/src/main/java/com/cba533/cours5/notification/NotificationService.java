@@ -23,7 +23,7 @@ import com.google.firebase.firestore.QuerySnapshot;
 public class NotificationService extends Service {
 
     public static final String CHANNEL_ID = "NotificationService";
-    //public static final String CHANNEL_ID_IMPORTANT = "NotificationServiceImportant";
+    public static final String CHANNEL_ID_IMPORTANT = "NotificationServiceImportant";
     NotificationManager notificationManager;
     FirebaseFirestore database;
     int idNotification = 2;
@@ -37,6 +37,7 @@ public class NotificationService extends Service {
 
     public void createNotificationChannel() {
         createNotificationChannelService();
+        createNotificationChannelServiceImportant();
         createNotificationChannelMessage();
     }
 
@@ -46,6 +47,19 @@ public class NotificationService extends Service {
             CharSequence channelName = "NotificationService";
             String channelDescription = "Notification Service";
             int channelImportance = NotificationManager.IMPORTANCE_DEFAULT;
+            NotificationChannel channel = new NotificationChannel(channelId, channelName, channelImportance);
+            channel.setDescription(channelDescription);
+            notificationManager = getSystemService(NotificationManager.class);
+            notificationManager.createNotificationChannel(channel);
+        }
+    }
+
+    private void createNotificationChannelServiceImportant(){
+        if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.O){
+            String channelId = CHANNEL_ID_IMPORTANT;
+            CharSequence channelName = "NotificationServiceImportant";
+            String channelDescription = "Notification Service Important";
+            int channelImportance = NotificationManager.IMPORTANCE_HIGH;
             NotificationChannel channel = new NotificationChannel(channelId, channelName, channelImportance);
             channel.setDescription(channelDescription);
             notificationManager = getSystemService(NotificationManager.class);
